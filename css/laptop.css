@@ -1,0 +1,342 @@
+@media only screen and (min-width: 992px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Inter", OpenSans, sans serif;
+    font-size: 20px;
+    line-height: 1.25;
+  }
+  #wrapper {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+  .border {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+  }
+  .m-b {
+    margin-bottom: 20px;
+  }
+  ul li {
+    list-style: none;
+  }
+
+  .m-t {
+    margin-top: 20px;
+  }
+
+  section > .container-1 {
+    width: 100%;
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
+  }
+  /*nav*/
+  #nav-bar {
+    text-align: center;
+    justify-content: center;
+  }
+  /*banner*/
+  .banner {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    height: 300px;
+    overflow: hidden;
+  }
+  .img-banner {
+    width: 100%;
+    height: 600px;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .banner h1 {
+    font-size: 34px;
+    font-weight: 300;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  /*nav*/
+  nav.container-1 {
+    background-color: #f1f3f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 100%;
+  }
+
+  nav.container-1 a {
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+  }
+  /*advanced avatar logo*/
+  .name {
+    position: relative;
+  }
+  .avatar {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 4px solid #fff;
+    left: -80px;
+    top: -70px;
+  }
+
+  .job {
+    color: #868e96;
+  }
+  .icon {
+    height: 20px;
+    width: 20px;
+    color: #228be6;
+  }
+  .social-icon {
+    display: flex;
+    gap: 20px;
+  }
+
+  /*career objectives*/
+  #about .row {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  #target {
+    display: flex;
+    flex-direction: column;
+  }
+  #target .section-title {
+    gap: 5px;
+  }
+
+  #personal-info {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  /*experience, education, activities*/
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    margin-bottom: 40px;
+  }
+
+  .row-1 {
+    display: flex;
+  }
+
+  .right-col {
+    flex-basis: 25%;
+    margin-top: 20px;
+  }
+  .left-col {
+    flex-basis: 75%;
+    font-size: 20px;
+  }
+
+  .ic-toolbox,
+  .ic-pencil,
+  .ic-telescope,
+  .ic-mic,
+  .ic-tools-2 {
+    font-size: 40px;
+  }
+  .bg-blue {
+    background-color: #339af0;
+    color: #fff;
+    padding: 5px;
+    border-radius: 12px;
+  }
+  .timeline {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    display: contents;
+  }
+  /*hobbies, languages, skills*/
+  li.hobby {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .ic {
+    justify-content: center;
+
+    padding: 5px 0px;
+  }
+  .ic-hotairballoon,
+  .ic-strategy,
+  .ic-basket,
+  .ic-megaphone {
+    border: 2px solid #1c7ed6;
+    color: #1c7ed6;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .level {
+    background: #1c7ed6;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  /*certificates, awards*/
+  .section-content .certificate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+    margin-top: 40px;
+  }
+  .b-r {
+    border-right: 1px solid #d6c08d;
+  }
+  img {
+    width: 100%;
+  }
+  .col-cer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  /*horizontal line in the section Certificates, awards*/
+  .timeline-cer {
+    position: relative;
+  }
+
+  .timeline-cer::before {
+    content: "";
+    background-color: #d6c08d;
+    position: absolute;
+
+    top: 240px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+  }
+
+  h3 {
+    color: #1864ab;
+  }
+  .row-cer {
+    line-height: 1.5;
+    color: #868e96;
+  }
+  .right-cer {
+    position: relative;
+    top: -20px;
+  }
+  /*projects*/
+  #project .container-1 a {
+    text-decoration: none;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  .img-project1 {
+    height: 220px;
+  }
+
+  .project-name {
+    font-weight: 400px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 1px solid #e9ecef;
+
+    margin-bottom: 20px;
+  }
+  .job {
+    display: flex;
+    gap: 20px;
+  }
+  table {
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  table tr {
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+    border-left: 1px solid #e9ecef;
+    border-right: 1px solid #e9ecef;
+    padding: 10px;
+  }
+  table td.top {
+    vertical-align: top;
+  }
+
+  .year {
+    background-color: #339af0;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    border-radius: 40%;
+    bottom: 6px;
+  }
+  .workplace {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /*footer-contact*/
+
+  .icon-contact {
+    color: #339af0;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+  }
+
+  .icon-contact a {
+    color: #868e96;
+    font-size: 28px;
+    text-decoration: none;
+  }
+
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    position: relative;
+    bottom: 10px;
+    right: 2px;
+  }
+}
